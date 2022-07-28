@@ -1,0 +1,27 @@
+{
+    "name": "chromer-theme",
+    "displayName": "Chromer Theme",
+    "description": "Dark Mode Chrome DevTools Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chromer Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Chromer Theme-color-theme.json"
+            }
+        ]
+    },
+    "icon": "images/icon.png",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mpossas/chromer-theme.git"
+    },
+    "publisher": "posseus"
+}
